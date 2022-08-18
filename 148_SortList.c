@@ -70,7 +70,7 @@ struct ListNode* sortList(struct ListNode* head){
         return head;
     }
     /* get middle node */
-    struct LisNode* mid = getMidNode(head);
+    struct ListNode* mid = getMidNode(head);
     /* recursive call to sort left side starting at head pointer */
     struct ListNode* left = sortList(head);
     /* recursive call to sort right side starting at middle node */
